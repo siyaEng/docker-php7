@@ -1,0 +1,7 @@
+version: '3'
+services:
+  docker-test-php:
+    container_name: docker-test-php
+    build: ./
+    environment:
+      TZ: Asia/Shanghai
